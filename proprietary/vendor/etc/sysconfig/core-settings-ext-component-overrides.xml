@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2021 Motorola Mobility.
+     Motorola Confidential Restricted.
+-->
+<config>
+    <component-override package="com.motorola.coresettingsext">
+        <component class="com.motorola.coresettingsext.RecordingFileReceiver" enabled="true" />
+        <component class="com.motorola.coresettingsext.CrystalTalkAITileService" enabled="true" />
+    </component-override>
+</config>

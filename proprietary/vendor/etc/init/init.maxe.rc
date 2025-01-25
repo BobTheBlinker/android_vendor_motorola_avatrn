@@ -1,0 +1,10 @@
+
+on property:vendor.motosxf.mode=*
+    setprop vendor.thermal.mode ${vendor.motosxf.mode}
+
+# change target_load owner and gid , allow maxe to read/write it.
+on property:vendor.post_boot.parsed=1
+    chown system system /sys/devices/system/cpu/cpufreq/policy0/walt/target_loads
+    chown system system /sys/devices/system/cpu/cpufreq/policy4/walt/target_loads
+    chown system system /sys/devices/system/cpu/cpufreq/policy7/walt/target_loads
+    chown system system /sys/devices/system/cpu/c1dcvs/enable_c1dcvs

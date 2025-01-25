@@ -1,0 +1,107 @@
+<xml>
+    <ctbk_version>35</ctbk_version>
+    <!-- !!! NOTICE: WiFi Configuration Start !!!-->
+    <!-- !!! NOTICE: WiFi Configuration Start !!!-->
+    <wifi_tx_pwr_mimo>
+          <!-- (10 plimit, unit 1/4 dB)2.4G tx0,2.4G tx1,5G TX0_B1,5G TX0_B2,5G TX0_B3,5G TX0_B4,,5G TX1_B1,5G TX1_B2,5G TX1_B3,5G TX1_B4-->
+        <Default index="0" >80,80,76,76,76,76,76,76,76,76</Default> <!--default, Max-->
+        <State1  index="1" >80,80,76,76,76,76,76,76,76,76</State1>  <!--WLAN + WWAN-->
+        <State2  index="2" >80,80,76,76,76,76,76,76,76,76</State2>  <!--DBS + WWAN-->
+        <State3  index="3" >80,80,76,76,64,64,76,76,64,64</State3>  <!--WLAN only, Hand Held(TX0)-->
+        <State4  index="4" >80,80,76,76,64,64,76,76,64,64</State4>  <!--DBS only, Hand Held(TX0)-->
+        <State5  index="5" >80,80,76,76,64,64,76,76,64,64</State5>  <!--WLAN + WWAN, Hand Held(TX0)-->
+        <State6  index="6" >80,80,76,76,64,64,76,76,64,64</State6>  <!--DBS + WWAN, Hand Held(TX0)-->
+        <State7  index="7" >80,80,76,76,76,76,76,76,76,76</State7>  <!--MHS/P2P NonDBS + WWAN-->
+        <State8  index="8" >80,80,76,76,76,76,76,76,76,76</State8>  <!--MHS/P2P DBS + WWAN-->
+        <State9  index="9" >80,80,76,76,76,76,76,76,76,76</State9>  <!--WLAN only, At Head(Earpiece on)-->
+        <State10 index="10">80,80,76,76,76,76,76,76,76,76</State10> <!--DBS only, At Head(Earpiece on)-->
+        <State11 index="11">80,80,76,76,76,76,76,76,76,76</State11> <!--WLAN + WWAN, At Head(Earpiece on)-->
+        <State12 index="12">80,80,76,76,76,76,76,76,76,76</State12> <!--DBS + WWAN, At Head(Earpiece on)-->
+        <State13 index="13">76,76,70,70,76,76,70,70,76,76</State13> <!--WLAN only, Body Worn(OB5)-->
+        <State14 index="14">76,76,70,70,76,76,70,70,76,76</State14> <!--DBS only, Body Worn(OB5)-->
+        <State15 index="15">76,76,70,70,76,76,70,70,76,76</State15> <!--WLAN + WWAN, Body Worn(OB5)-->
+        <State16 index="16">76,76,70,70,76,76,70,70,76,76</State16> <!--DBS + WWAN, Body Worn(OB5)-->
+        <State17 index="17">80,80,76,76,76,76,76,76,76,76</State17> <!--WLAN only, Free Space/Tabletop(USB Connected)-->
+        <State18 index="18">80,80,76,76,76,76,76,76,76,76</State18> <!--DBS only, Free Space/Tabletop(USB Connected)-->
+        <State19 index="19">80,80,76,76,76,76,76,76,76,76</State19> <!--WLAN + WWAN, Free Space/Tabletop(USB Connected)-->
+        <State20 index="20">80,80,76,76,76,76,76,76,76,76</State20> <!--DBS + WWAN, Free Space/Tabletop(USB Connected)-->
+    </wifi_tx_pwr_mimo>
+
+    <fcc_wifi_tx_pwr_mimo>
+          <!-- (10 plimit, unit 1/4 dB)2.4G tx0,2.4G tx1,5G TX0_B1,5G TX0_B2,5G TX0_B3,5G TX0_B4,,5G TX1_B1,5G TX1_B2,5G TX1_B3,5G TX1_B4-->
+        <Default index="0" >80,80,70,70,70,70,70,70,70,70</Default> <!--default, Max-->
+        <State1  index="1" >80,80,70,70,70,70,70,70,70,70</State1>  <!--WLAN + WWAN-->
+        <State2  index="2" >80,80,70,70,70,70,70,70,70,70</State2>  <!--DBS + WWAN-->
+        <State3  index="3" >80,80,70,70,70,66,70,70,70,66</State3>  <!--WLAN only, Hand Held(TX0)-->
+        <State4  index="4" >80,80,70,70,70,66,70,70,70,66</State4>  <!--DBS only, Hand Held(TX0)-->
+        <State5  index="5" >68,68,70,70,58,46,70,70,58,46</State5>  <!--WLAN + WWAN, Hand Held(TX0)-->
+        <State6  index="6" >68,68,70,70,58,46,70,70,58,46</State6>  <!--DBS + WWAN, Hand Held(TX0)-->
+        <State7  index="7" >62,62,46,70,70,42,46,72,72,42</State7>  <!--MHS/P2P NonDBS + WWAN-->
+        <State8  index="8" >62,62,46,70,70,42,46,72,72,42</State8>  <!--MHS/P2P DBS + WWAN-->
+        <State9  index="9" >68,68,70,70,70,60,70,70,70,60</State9>  <!--WLAN only, At Head(Earpiece on)-->
+        <State10 index="10">68,68,70,70,70,60,70,70,70,60</State10> <!--DBS only, At Head(Earpiece on)-->
+        <State11 index="11">48,48,66,66,52,40,66,66,52,40</State11> <!--WLAN + WWAN, At Head(Earpiece on)-->
+        <State12 index="12">48,48,66,66,52,40,66,66,52,40</State12> <!--DBS + WWAN, At Head(Earpiece on)-->
+        <State13 index="13">66,66,50,50,48,50,50,50,48,50</State13> <!--WLAN only, Body Worn(OB5)-->
+        <State14 index="14">66,66,50,50,48,50,50,50,48,50</State14> <!--DBS only, Body Worn(OB5)-->
+        <State15 index="15">54,54,34,34,32,36,34,34,32,36</State15> <!--WLAN + WWAN, Body Worn(OB5)-->
+        <State16 index="16">54,54,34,34,32,36,34,34,32,36</State16> <!--DBS + WWAN, Body Worn(OB5)-->
+        <State17 index="17">80,80,70,70,70,70,70,70,70,70</State17> <!--WLAN only, Free Space/Tabletop(USB Connected)-->
+        <State18 index="18">80,80,70,70,70,70,70,70,70,70</State18> <!--DBS only, Free Space/Tabletop(USB Connected)-->
+        <State19 index="19">80,80,70,70,70,70,70,70,70,70</State19> <!--WLAN + WWAN, Free Space/Tabletop(USB Connected)-->
+        <State20 index="20">80,80,70,70,70,70,70,70,70,70</State20> <!--DBS + WWAN, Free Space/Tabletop(USB Connected)-->
+    </fcc_wifi_tx_pwr_mimo>
+    <fcc_country_mcc_list>310,311,312,313,314,315,316,722,716,730,732,330,736,404,405,302,450</fcc_country_mcc_list>
+
+    <!--Wifi 2GHz TX0 config: 4 = 0000100b (cap_top_left)-->
+    <wifi_tx0_sensor_config_2ghz>4</wifi_tx0_sensor_config_2ghz>
+
+    <!--Wifi 5GHz TX0 config: 4 = 0000100b (cap_top_left)-->
+    <wifi_tx0_sensor_config_5ghz>4</wifi_tx0_sensor_config_5ghz>
+
+    <!--OB5 config: 3 = 0000011b (cap_bottom_center(ANT0)|cap_top_right(ANT1))-->
+    <ob5_sensor_config>3</ob5_sensor_config>
+
+    <bt_tx_pwr>
+        <!--tip1. The bt tx power value of cap is in units of 0.25 dBm -->
+        <!--tip2. The typical range is between 0 and 80 units (i.e. 0 to 20 dBm) -->
+        <!--tip3. bt_tx_pwr state count same with wifi_tx_pwr and  wifi_tx_pwr_mimo -->
+        <!--  BR, EDR , LE -->
+        <Default index="0" >84,84,84</Default> <!--default, Max-->
+        <State1  index="1" >84,84,84</State1>  <!--WLAN + WWAN-->
+        <State2  index="2" >84,84,84</State2>  <!--DBS + WWAN-->
+        <State3  index="3" >84,84,84</State3>  <!--WLAN only, Hand Held(TX0)-->
+        <State4  index="4" >84,84,84</State4>  <!--DBS only, Hand Held(TX0)-->
+        <State5  index="5" >84,84,84</State5>  <!--WLAN + WWAN, Hand Held(TX0)-->
+        <State6  index="6" >84,84,84</State6>  <!--DBS + WWAN, Hand Held(TX0)-->
+        <State7  index="7" >28,28,28</State7>  <!--MHS/P2P NonDBS + WWAN-->
+        <State8  index="8" >28,28,28</State8>  <!--MHS/P2P DBS + WWAN-->
+        <State9  index="9" >28,28,28</State9>  <!--WLAN only, At Head(Earpiece on)-->
+        <State10 index="10">28,28,28</State10> <!--DBS only, At Head(Earpiece on)-->
+        <State11 index="11">28,28,28</State11> <!--WLAN + WWAN, At Head(Earpiece on)-->
+        <State12 index="12">28,28,28</State12> <!--DBS + WWAN, At Head(Earpiece on)-->
+        <State13 index="13">28,28,28</State13> <!--WLAN only, Body Worn(OB5)-->
+        <State14 index="14">28,28,28</State14> <!--DBS only, Body Worn(OB5)-->
+        <State15 index="15">28,28,28</State15> <!--WLAN + WWAN, Body Worn(OB5)-->
+        <State16 index="16">28,28,28</State16> <!--DBS + WWAN, Body Worn(OB5)-->
+        <State17 index="17">84,84,84</State17> <!--WLAN only, Free Space/Tabletop(USB Connected)-->
+        <State18 index="18">84,84,84</State18> <!--DBS only, Free Space/Tabletop(USB Connected)-->
+        <State19 index="19">84,84,84</State19> <!--WLAN + WWAN, Free Space/Tabletop(USB Connected)-->
+        <State20 index="20">84,84,84</State20> <!--DBS + WWAN, Free Space/Tabletop(USB Connected)-->
+    </bt_tx_pwr>
+
+    <!-- !!! NOTICE: Sensor Configuration Start !!!-->
+    <!-- !!! NOTICE: Sensor Configuration Start !!!-->
+    <sar_sensors>
+        <sensor type="prox_front"               index="0">stk_stk3acx Proximity Sensor Wakeup</sensor>
+        <sensor type="prox_back"                index="1">null</sensor>
+        <!--from back view-->
+        <sensor type="cap_bottom_center"        index="2">Moto CapSense Ch0</sensor> <!--ANT0, CS0 -->
+        <sensor type="cap_top_right"            index="3">Moto CapSense Ch1</sensor> <!--ANT1/ANT4, CS7 -->
+        <sensor type="cap_top_left"             index="4">Moto CapSense Ch2</sensor> <!--ANT3/ANT8, CS4 -->
+        <sensor type="cap_bottom_left"          index="5">Moto CapSense Ch3</sensor> <!--ANT9, CS5 -->
+        <sensor type="cap_top_center"           index="6">Moto CapSense Ch4</sensor> <!--ANT6/10 -->
+    </sar_sensors>
+    <nfc_detect_metal_support>1</nfc_detect_metal_support>
+    <nfc_metal_threshold>50</nfc_metal_threshold>
+</xml>

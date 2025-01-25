@@ -1,0 +1,16 @@
+service vendor.motosxf /vendor/bin/hw/motosxf
+    class hal
+    user system
+    group system
+    writepid /dev/cpuset/foreground/tasks
+
+on property:persist.vendor.motosxf.enable=false
+    restart vendor.motosxf
+
+service vendor.iptables-sh /vendor/bin/init.motosxf.iptables.sh
+    user root
+    oneshot
+    disabled
+
+on property:vendor.motosxf.iptables.op=*
+    exec_start vendor.iptables-sh
